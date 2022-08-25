@@ -1,0 +1,7 @@
+    createPlatform(0,450);
+    createPlatform(300, 290);
+    createPlatform(500,210);
+ 
+
+        createCannon("top",230);
+        createCannon("bottom", 460);

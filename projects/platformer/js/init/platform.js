@@ -28,7 +28,11 @@
 
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-
+    createPlatform(400, 250);
+      createPlatform(170, 460, 0.5);
+      createPlatform(0,450);
+      createPlatform(300, 290);
+      createPlatform(500,210);  
     /*
      * ground : here, we create a floor. Given the width of of the platform
      * asset, giving it a scaleX and scaleY of 2 will stretch it across the
