@@ -32,6 +32,7 @@
       createPlatform( 510, 590, 1);
       createPlatform(170, 460, 1);
       createPlatform( 200,700,1);
+      createPlatform(100,100,.9)
       ;  
     /*
      * ground : here, we create a floor. Given the width of of the platform
