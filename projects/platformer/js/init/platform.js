@@ -33,7 +33,9 @@
       createPlatform(170, 460, 1);
       createPlatform( 200,700,1);
       createPlatform(100,100,.9, .5)
-      createPlatform(10,390,.6,.4)
+      createPlatform(10,350,.6,.4)
+      createPlatform(600,560,.5,.04)
+      
       createPlatform(600,190,.7,.4)
       ;  
     /*
