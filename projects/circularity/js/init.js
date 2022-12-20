@@ -55,14 +55,14 @@ for (var loop = 0; loop < 100; loop++) {
         
             function update() {
                 // TODO 4 : Update the circle's position //
-               // for (var i = 0; i < 100; i++) {
-                    var eachCircle = circles[i];
+               for (var i = 0; i < 100; i++) {
+                 //   var eachCircle = circles[i];
                     physikz.updatePosition( circles[i] );
                     game.checkCirclePosition( circles[i] );
              }
                
 
-            }
+            
 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles. 
@@ -72,9 +72,9 @@ for (var loop = 0; loop < 100; loop++) {
             
                 
                 // code to repeat using eachValue
-             }
-            
         }
+            
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -85,7 +85,7 @@ for (var loop = 0; loop < 100; loop++) {
         
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             game.checkCirclePosition = function(circle) {
-
+                /*
                 // if the circle has gone past the RIGHT side of the screen then place it on the LEFT
                 if ( circle.x > canvas.width ) {
                     circle.x = 0;
@@ -101,7 +101,7 @@ for (var loop = 0; loop < 100; loop++) {
                 if (circle.x < 0 ) {
                     circle.x = canvas.width;
                 }
-                
+                */
                 // TODO 7 : YOUR CODE STARTS HERE //////////////////////
                // var rightEdge = circle.x + circle.radius;
                 /* Your conditional statements HERE */
@@ -127,7 +127,8 @@ for (var loop = 0; loop < 100; loop++) {
         
         app.addUpdateable(window.opspark.game);
     
-
+    }
+};
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
